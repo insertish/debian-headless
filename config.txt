@@ -1,8 +1,8 @@
 # Configuration
 
 # Name of source and target iso filenames
-SOURCE = debian-10.0.0-amd64-netinst.iso
-TARGET = debian-10.0.0-amd64-netinst-headless.iso
+SOURCE = debian-10.4.0-amd64-netinst.iso
+TARGET = debian-10.4.0-amd64-netinst-headless.iso
 
 # Architecture settings
 # amd64
@@ -14,8 +14,9 @@ QEMU = qemu-system-x86_64
 
 # Preseeding file to use
 #PRESEED = preseed-en_US.cfg	# US locale and keyboard
-PRESEED =  preseed-en_DE.cfg	# US locale and keyboard, except country=DE
+#PRESEED =  preseed-en_DE.cfg	# US locale and keyboard, except country=DE
 #PRESEED = preseed-de_DE.cfg	# german locale and keyboard
+PRESEED =  preseed-en_GB.cfg	# GB locale and keyboard
 
 # Volume label for the target ISO image
 LABEL = debian-hdl-inst
@@ -25,7 +26,7 @@ LABEL = debian-hdl-inst
 # uncomment and set carefully!
 # use lsusb and/or the output of dmesg after plugging in your usb drive
 # to find the correct device file
-USBDEV = /dev/sdc
+USBDEV = /dev/sde
 #USBDEV = /dev/null
 
 # EOF

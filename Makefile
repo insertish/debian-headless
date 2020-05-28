@@ -67,6 +67,7 @@ qemu: ${TARGET}
 	@echo "    ssh installer@localhost -p10022\n"
 	# run qemu with forwarded ssh port
 	${QEMU} -m 1024 \
+		--enable-kvm \
 		-net user,hostfwd=tcp::10022-:22 \
 		-net nic \
 		-cdrom ${TARGET}

@@ -1,3 +1,9 @@
+This is a fork of [debian-headless](https://github.com/philpagel/debian-headless) with en-GB configs.
+
+I have personally built the image on `Arch Linux`, running and testing the final image on the server below:
+- `Ryzen 3 1300X`
+- `Gigabyte A320M-S2H`
+
 # Debian headless/remote installation
 
 I wanted to do a headless installation for a server – i.e. without any keyboard
