@@ -4,6 +4,8 @@ I have personally built the image on `Arch Linux`, running and testing the final
 - `Ryzen 3 1300X`
 - `Gigabyte A320M-S2H`
 
+The image used was `Debian 10.4.0 amd64 netinst`.
+
 # Debian headless/remote installation
 
 I wanted to do a headless installation for a server – i.e. without any keyboard

@@ -26,7 +26,7 @@ LABEL = debian-hdl-inst
 # uncomment and set carefully!
 # use lsusb and/or the output of dmesg after plugging in your usb drive
 # to find the correct device file
-USBDEV = /dev/sde
+USBDEV = /dev/sdd
 #USBDEV = /dev/null
 
 # EOF
